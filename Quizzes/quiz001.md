@@ -10,6 +10,7 @@ It's important to note that even when numbers are inputted by the user, these ar
 
 
 ### Flowchart
+Draft (TBD): https://docs.google.com/document/d/1blil_ayU28RYM6_PeojAK0Y2U3tC14P95GMrDz3JaR4/edit?usp=sharing 
 
 
 ### Code & Proof
