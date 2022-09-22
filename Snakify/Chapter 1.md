@@ -8,7 +8,7 @@
 5. [Hello, Harry!](#helloharry)
 6. [Apple sharing](#applesharing)
 7. [Previous and Next](#pvn)
-8. [Two timestamps](#timestamps) -- DRAFT
+8. [Two timestamps](#timestamps)
 9. [School desks] (#schooldesks) -- DRAFT
 
 
