@@ -7,9 +7,9 @@
 4. [Area of right-angled triangle](#triangle)
 5. [Hello, Harry!](#helloharry)
 6. [Apple sharing](#applesharing)
-7. Previous and Next (TBD)
-8. Two timestamps (TBD)
-9. School desks (TBD)
+7. [Previous and Next](#pvn)
+8. [Two timestamps](#timestamps)
+9. [School desks] (#schooldesks)
 
 
 ## Sum of Three Numbers <a name="sumofthree"></a>
@@ -50,4 +50,25 @@ N students take K apples and distribute them among each other evenly. The remain
 The program reads the numbers N and K. It should print the two answers for the questions above.
 
 <img width="300" alt="Screen Shot 2022-09-22 at 2 11 46 AM" src="https://user-images.githubusercontent.com/113817801/191568546-230071c5-255f-4674-8fe9-4dc1112df050.png">
+
+
+## Previous and Next <a name="pvn"></a>
+Write a program that reads an integer number and prints its previous and next numbers. See the examples below for the exact format your answers should take. There shouldn't be a space before the period.
+Remember that you can convert the numbers to strings using the function str.
+
+<img width="847" alt="Screen Shot 2022-09-22 at 10 08 02 AM" src="https://user-images.githubusercontent.com/113817801/191636665-3e4ff8c6-b5d3-4fae-a55c-4abffadef260.png">
+
+
+
+## Two timestamps <a name="timestamps"></a>
+A timestamp is three numbers: a number of hours, minutes and seconds. Given two timestamps, calculate how many seconds is between them. The moment of the first timestamp occurred before the moment of the second timestamp.
+
+
+
+## School desks <a name="schooldesks"></a>
+A school decided to replace the desks in three classrooms. Each desk sits two students. Given the number of students in each class, print the smallest possible number of desks that can be purchased.
+The program should read three integers: the number of students in each of the three classes, a, b and c respectively.
+
+In the first test there are three groups. The first group has 20 students and thus needs 10 desks. The second group has 21 students, so they can get by with no fewer than 11 desks. 11 desks is also enough for the third group of 22 students. So we need 32 desks in total.
+
 
