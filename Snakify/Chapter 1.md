@@ -64,6 +64,9 @@ Remember that you can convert the numbers to strings using the function str.
 A timestamp is three numbers: a number of hours, minutes and seconds. Given two timestamps, calculate how many seconds is between them. The moment of the first timestamp occurred before the moment of the second timestamp.
 
 
+<img width="616" alt="Screen Shot 2022-09-22 at 10 39 47 AM" src="https://user-images.githubusercontent.com/113817801/191639617-9f393319-e255-4d31-bba0-56b2e4eb2826.png">
+
+
 
 ## School desks <a name="schooldesks"></a>
 A school decided to replace the desks in three classrooms. Each desk sits two students. Given the number of students in each class, print the smallest possible number of desks that can be purchased.
