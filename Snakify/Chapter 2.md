@@ -8,7 +8,7 @@
 5. [Sum of Digits](#sumdigits)
 6. [Tens Digit](#tensdigit)
 7. [Reverse three digits](#reverse)
-8. [Merge two numbers](#merge) --> DRAFT 
+8. [Merge two numbers](#merge) 
 9. [Cyclic rotation](#cyclic)
 10. [Fractional part](#fractionalpart)
 11. [First digit after decimal point](#firstdigit)
@@ -67,3 +67,33 @@ Given a three-digit integer number, print its digits in a reversed order.
 
 ## Merge two numbers <a name="merge"></a>
 Given two two-digit numbers, merge their digits as shown in the tests below.
+<img width="365" alt="Screen Shot 2022-09-23 at 11 50 57 PM" src="https://user-images.githubusercontent.com/113817801/191989224-cb3825c3-0db5-4421-b20e-f4b44f0cc074.png">
+
+
+## Cyclic rotation <a name="cyclic"></a>
+Given a four-digit integer number, perform its cyclic rotation by two digits.
+<img width="293" alt="Screen Shot 2022-09-23 at 11 54 58 PM" src="https://user-images.githubusercontent.com/113817801/191990136-a83ef0a4-350b-46ab-b01d-4f15597ef46b.png">
+
+
+## Fractional part <a name = "fractionalpart"><a>
+Given a positive real number, print its fractional part.  
+  
+<img width="165" alt="Screen Shot 2022-09-23 at 11 56 52 PM" src="https://user-images.githubusercontent.com/113817801/191990477-e2a16fa0-cc84-4f69-a284-d9b4cf77a4d2.png">
+
+
+## First digit after decimal point <a name="#firstdigit"></a>
+  
+12. [Car route](#car)
+13. [Fractional part](#fraction)
+14. [First digit after decimal point](#fdeci)
+15. [Car route](#car2)
+16. [Day of week](#dayofweek)
+17. [Digital clock](#dclock)
+18. [Total cost](#totalcost)
+19. [Century](#century)
+20. [Snail](#snail)
+21. [Clock face - 1](#clock1)
+22. [Clock face - 2](#clock2)
+
+
+
