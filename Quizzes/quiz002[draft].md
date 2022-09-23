@@ -6,6 +6,8 @@ Given 2 numbers, A and B, Output TRUE if one of them is 20 or if their sum is 20
 
 
 ### **Flowchart**
+<img width="323" alt="Screen Shot 2022-09-23 at 2 55 21 PM" src="https://user-images.githubusercontent.com/113817801/191899704-7219d95d-73a0-4f15-ad33-71a8548f7b7c.png">
+
 
 
 ### **Code**
