@@ -20,11 +20,12 @@ Justify the tools/structure of your solution
 
 ## Success Criteria
 1. The electronic ledger is a text-based software (Runs in the Terminal).
-2. The electronic ledger display the basic description of the cyrptocurrency selected.
-3. The electronic ledger allows to enter, withdraw and record transactions.
-4. The electronic ledger is inclusive; it allows both those with tech and non-tech backgrounds to use it.
-5. The electronic ledger records transactions, including the recipient, sender, timestamp, and wallet ID of the involved stakeholders.
-6. The electronic ledger validates transactions and identifies any sign of record tampering.
+2. The electronic ledger display the basic description of the crypotocurrency selected - Cosmos.
+3. The electronic ledger allows to enter, withdraw and record transaction (including the recipient, sender, timestamp, and wallet ID of the involved stakeholders).
+4. The electronic ledger categorizes transactions into either buying, selling, or transfer of Cosmos coins.
+6. The electronic ledger shows important statistics such as Cash Flow, Balance Trend, and Expenses Structure.
+7. The electronic ledger is secured; it requires a password for access.
+
 
 # Criteria B: Design
 
