@@ -9,7 +9,7 @@
 6. [Apple sharing](#applesharing)
 7. [Previous and Next](#pvn)
 8. [Two timestamps](#timestamps)
-9. [School desks] (#schooldesks) -- DRAFT
+9. [School desks] (#schooldesks)
 
 
 ## Sum of Three Numbers <a name="sumofthree"></a>
@@ -75,3 +75,4 @@ The program should read three integers: the number of students in each of the th
 In the first test there are three groups. The first group has 20 students and thus needs 10 desks. The second group has 21 students, so they can get by with no fewer than 11 desks. 11 desks is also enough for the third group of 22 students. So we need 32 desks in total.
 
 
+<img width="431" alt="Screen Shot 2022-09-23 at 11 44 26 PM" src="https://user-images.githubusercontent.com/113817801/191987696-bea0b9fa-7b5c-4fc7-a6e0-ab15fd201142.png">
