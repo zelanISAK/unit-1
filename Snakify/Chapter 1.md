@@ -9,7 +9,7 @@
 6. [Apple sharing](#applesharing)
 7. [Previous and Next](#pvn)
 8. [Two timestamps](#timestamps)
-9. [School desks] (#schooldesks)
+9. [School desks](#schooldesks)
 
 
 ## Sum of Three Numbers <a name="sumofthree"></a>
