@@ -29,8 +29,8 @@ Justify the tools/structure of your solution
 
 # Criteria B: Design
 
-## System Diagram
-![Untitled](https://user-images.githubusercontent.com/113817801/191666887-9b499076-fc63-403b-8ef8-03fb5a0ae309.png)
+## System Diagram - To be Updated
+![Untitled Diagram drawio](https://user-images.githubusercontent.com/113817801/191886270-f3b24547-04b8-493f-ade6-7d8e70768766.png)
 
 
 ## Flow Diagrams
