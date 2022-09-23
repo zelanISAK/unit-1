@@ -14,7 +14,7 @@ Apart for this requirements, Ms Sato is open to explore a cryptocurrency selecte
 ## Proposed Solution
 
 Design statement:
-I will to design and make a <ins>digital ledger</ins> for a client who is ———. The ——– will about ———— and is constructed using the software <ins>Python</ins>. It will take  ———- to make and will be evaluated according to the criteria ———.
+I will to design and make a <ins>digital ledger</ins> for a client who is <ins>Ms. Sato</ins>. The ——– will about ———— and is constructed using the software <ins>Python</ins>. It will take  ———- to make and will be evaluated according to the criteria ———.
 
 Justify the tools/structure of your solution
 
@@ -22,9 +22,9 @@ Justify the tools/structure of your solution
 1. The electronic ledger is a text-based software (Runs in the Terminal).
 2. The electronic ledger display the basic description of the cyrptocurrency selected.
 3. The electronic ledger allows to enter, withdraw and record transactions.
-4.
-5.
-6.
+4. The electronic ledger is inclusive; it allows both those with tech and non-tech backgrounds to use it.
+5. The electronic ledger records transactions, including the recipient, sender, timestamp, and wallet ID of the involved stakeholders.
+6. The electronic ledger validates transactions and identifies any sign of record tampering.
 
 # Criteria B: Design
 
@@ -39,5 +39,6 @@ Justify the tools/structure of your solution
 | Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
 |---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
 | 1       | Create system diagram                                         | To have a clear idea of the hardware and software requirements for the proposed solution                        | 10min         | Sep 22                | B         |
+| 2       | Completion of success criteria                                         | To have a good definition of what needs to be achieved and what a successful project would look like                        | 10min         | Sep 22               | A         |
 
 
