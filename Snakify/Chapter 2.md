@@ -11,9 +11,6 @@
 8. [Merge two numbers](#merge) 
 9. [Cyclic rotation](#cyclic)
 10. [Fractional part](#fractionalpart)
-11. [First digit after decimal point](#firstdigit)
-12. [Car route](#car)
-13. [Fractional part](#fraction)
 14. [First digit after decimal point](#fdeci)
 15. [Car route](#car2)
 16. [Day of week](#dayofweek)
@@ -81,12 +78,12 @@ Given a positive real number, print its fractional part.
 <img width="165" alt="Screen Shot 2022-09-23 at 11 56 52 PM" src="https://user-images.githubusercontent.com/113817801/191990477-e2a16fa0-cc84-4f69-a284-d9b4cf77a4d2.png">
 
 
-## First digit after decimal point <a name="#firstdigit"></a>
+## First digit after decimal point <a name="fdeci"></a>
 Given a positive real number, print its first digit to the right of the decimal point.
 <img width="265" alt="Screen Shot 2022-09-24 at 11 26 30 AM" src="https://user-images.githubusercontent.com/113817801/192076227-55c9cfef-2e26-41de-a5ff-25c7d5851b77.png">
 
 
-## Car route <a name="car"></a>
+## Car route <a name="car2"></a>
 A car can cover distance of N kilometers per day. How many days will it take to cover a route of length M kilometers? The program gets two numbers: N and M.
   
 <img width="346" alt="Screen Shot 2022-09-24 at 11 34 40 AM" src="https://user-images.githubusercontent.com/113817801/192076550-449a2610-492f-4b88-b48b-a32da915c4fd.png">
@@ -109,14 +106,31 @@ For example, if N = 150, then 150 minutes have passed since midnight - i.e. now 
   
 ## Total cost <a name="totalcost"></a>
 A cupcake costs A dollars and B cents. Determine, how many dollars and cents should one pay for N cupcakes. A program gets three numbers: A, B, N. It should print two numbers: total cost in dollars and cents.
-  
-
+  <img width="246" alt="Screen Shot 2022-09-24 at 12 30 06 PM" src="https://user-images.githubusercontent.com/113817801/192078220-1ee5c798-55b3-4752-b010-2d9ec19787df.png">
  
  
   ## Century <a name="century"></a>
+  Given a year as a positive integer, print its century. Mind that the 20th century began on 1901 and ended on 2000.
+<img width="603" alt="Screen Shot 2022-09-24 at 12 32 06 PM" src="https://user-images.githubusercontent.com/113817801/192078292-c54ef858-8bc5-45bc-8c92-2b94be0fc221.png">
+
+
   ## Snail <a name="snail"></a>
+  A snail goes up A feet during the day and falls B feet at night. How long does it take him to go up H feet?
+Given three integer numbers H, A and B (A > B), the program should output a number of days.
+  
+<img width="550" alt="Screen Shot 2022-09-24 at 12 36 21 PM" src="https://user-images.githubusercontent.com/113817801/192078425-45eb2c0e-8213-497e-b85c-5b10ab3d29ec.png">
+
+  
   ## Clock face - 1 <a name="clock1"></a>
+  H hours, M minutes and S seconds are passed since the midnight (0 ≤ H < 12, 0 ≤ M < 60, 0 ≤ S < 60). Determine the angle (in degrees) of the hour hand on the clock face right now.
+                                                                                                    
+  <img width="425" alt="Screen Shot 2022-09-24 at 12 35 32 PM" src="https://user-images.githubusercontent.com/113817801/192078398-d44fe2fe-2583-4e9f-aafb-7d00a805b4e7.png">
+
+  
+  
   ## Clock face - 2 <a name="clock2"></a>
+Hour hand turned by α degrees since the midnight. Determine the angle by which minute hand turned since the start of the current hour. Input and output in this problems are floating-point numbers.
 
+<img width="599" alt="Screen Shot 2022-09-24 at 12 38 41 PM" src="https://user-images.githubusercontent.com/113817801/192078498-69b96dec-df20-4024-9ee0-829588bba671.png">
 
-
+<img width="622" alt="Screen Shot 2022-09-24 at 12 39 16 PM" src="https://user-images.githubusercontent.com/113817801/192078512-235bd3bf-cafd-4afb-92a7-9f5bea0faa99.png">
