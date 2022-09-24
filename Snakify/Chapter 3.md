@@ -6,7 +6,9 @@
 3. [Is Even](#even)
 4. [Ends on Seven](#seven)
 5. [Minimum of two Numbers](#min)
-6. 
+6. [Are both odd](#bothodd)
+7. [At least one odd](#one_odd)
+8. [Exactly One Odd](#exactlyoneodd) --> DRAFT 8 OF 32
 
 ## Is Positive<a name="ispositive"></a>
 Given an integer, print "YES" if it's positive and print "NO" otherwise.
@@ -34,15 +36,15 @@ Given an integer, print "YES" if it's last digit is 7 and print "NO" otherwise.
 Given two integers, print the smaller value.
 <img width="440" alt="Screen Shot 2022-09-24 at 2 22 37 PM" src="https://user-images.githubusercontent.com/113817801/192081414-f102d0b8-0d95-4486-b3d1-16adf6f90fe0.png">
 
-## Are both odd <a name="bothodd></a>
+## Are both odd <a name="bothodd"></a>
 Given two integers, print "YES" if they're both odd and print "NO" otherwise.
   <img width="275" alt="Screen Shot 2022-09-24 at 2 25 29 PM" src="https://user-images.githubusercontent.com/113817801/192081486-65058d10-76b8-47fd-b2cf-c8b952d4e14d.png">
   
 
-## At least one odd <a name="one_odd></a>
+## At least one odd <a name="one_odd"></a>
 Given two integers, print "YES" if at least one of them is odd and print "NO" otherwise.
 <img width="362" alt="Screen Shot 2022-09-24 at 2 31 37 PM" src="https://user-images.githubusercontent.com/113817801/192081651-aeae9fc7-86a9-433b-ac53-76f58a455a7d.png">
 
 
-## Exactly One Odd <a name=exactly one odd></a>
+## Exactly One Odd <a name="exactlyoneodd"></a>
 Given two integers, print "YES" if exactly one of them is odd and print "NO" otherwise.
