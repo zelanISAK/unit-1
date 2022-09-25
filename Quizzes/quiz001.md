@@ -10,6 +10,20 @@ It's important to note that even when numbers are inputted by the user, these ar
 
 
 ### Flowchart
+<img width="477" alt="Screen Shot 2022-09-25 at 9 24 57 PM" src="https://user-images.githubusercontent.com/113817801/192143245-8605d92e-4ccf-451c-9faf-eccdbc6ff7b2.png">
+
+
+### Code & Proof
+<img width="572" alt="Screen Shot 2022-09-25 at 9 19 32 PM" src="https://user-images.githubusercontent.com/113817801/192143044-1fb12628-a6c9-4dfe-be9a-9ad5365c5308.png">
+
+
+<img width="352" alt="Screen Shot 2022-09-25 at 9 21 02 PM" src="https://user-images.githubusercontent.com/113817801/192143087-dfda60b1-2429-4469-83a5-28736b062ff3.png">
+
+<br>
+
+## Draft 1
+This was my first draft of the code but I realized it could be so much simpler. I wanted to put it here anyway for the sake of recording progress.
+### Flowchart
 <img width="300" alt="Screen Shot 2022-09-22 at 1 39 50 AM" src="https://user-images.githubusercontent.com/113817801/191562411-17ff713f-103e-4514-a08f-a16508eda2d9.png">
 
 
