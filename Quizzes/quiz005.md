@@ -1,5 +1,5 @@
 # **Quiz 5**
-TGiven a number, create a program that produces the output factors.
+Given a number, create a program that produces the output factors.
 [HL]  Check if the number is a Perfect Number and show True or False
 
 <img width="300" alt="Screen Shot 2022-09-25 at 8 11 32 PM" src="https://user-images.githubusercontent.com/113817801/192140597-03d6366b-8539-48c0-aabc-ca98c4c7fd20.png">
