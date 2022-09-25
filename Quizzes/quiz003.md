@@ -4,8 +4,8 @@ Create a program that translate the proteins in the DNA chain
 
 
 ### **Flowchart**
-<img width="153" alt="Screen Shot 2022-09-23 at 11 33 26 PM" src="https://user-images.githubusercontent.com/113817801/191985135-1f724e05-20a1-4ed1-a24b-9a79aa180520.png">
 
+<img width="192" alt="Screen Shot 2022-09-25 at 8 35 19 PM" src="https://user-images.githubusercontent.com/113817801/192141354-2f409d1a-cbd0-4a6e-822d-d902a00eee0a.png">
 
 ### **Code**
 ```
