@@ -43,3 +43,25 @@ Justify the tools/structure of your solution
 | 2       | Completion of success criteria                                         | To have a good definition of what needs to be achieved and what a successful project would look like                        | 10min         | Sep 22               | A         |
 
 
+
+<br></br>
+
+## Timetable
+
+#### What does the user go through?
+1. Welcome Message + Login System - September 27 to 28
+2. Introduction to the Crypto (Format visually) - October 1 
+3. Show current ledger - October 1
+4. What would you like to do? Add to ledger, Show statistics. - October 1
+5. LEDGER - October 2
+    1. Input data
+    2. Are you sure this is final? Would you like to make changes?
+        1. If yes: Go back to 1
+        2. If no: Add data to CSV
+6. STATISTICS - October 5
+    1. Cash Flow
+    2. Balance Trend
+    3. Expense Structure
+    4. All
+
+
