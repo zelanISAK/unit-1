@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-02T14:18:34.357Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="yz2UvLrToIAq350haDLd" version="20.4.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-02T14:33:06.647Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="gZHvI92a8KPz9SNOYt1V" version="20.4.0" type="github" pages="3">
   <diagram id="d6WIqge2yQM2MYEUYzX_" name="System Diagram">
     <mxGraphModel dx="396" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -90,7 +90,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VzSdU9WmRAFDcLf1YNdm" name="Main Flowchart">
-    <mxGraphModel dx="2861" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1593" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -289,6 +289,12 @@
         </mxCell>
         <mxCell id="Oov4AeSwO6nbQLo84n4C-87" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="732.5" y="1070" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Oov4AeSwO6nbQLo84n4C-89" value="What if the user inputs a = a string? Include an error message for this" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="62.5" y="210" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Oov4AeSwO6nbQLo84n4C-90" value="LOOPS!" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="470" y="570" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
