@@ -49,11 +49,11 @@ Justify the tools/structure of your solution
 ## Timetable
 
 #### What does the user go through?
-1. Welcome Message + Login System - September 27 to 28
-2. Introduction to the Crypto (Format visually) - October 1 
-3. Show current ledger - October 1
-4. What would you like to do? Add to ledger, Show statistics. - October 1
-5. LEDGER - October 2
+1. ~~Welcome Message + Login System - September 27 to 28~~
+2. ~~Introduction to the Crypto (Format visually) - October 1~~
+3. ~~Show current ledger - October 1~~
+4. ~~What would you like to do? Add to ledger, Show statistics. - October 1~~
+5. LEDGER - October 3
     1. Input data
     2. Are you sure this is final? Would you like to make changes?
         1. If yes: Go back to 1
