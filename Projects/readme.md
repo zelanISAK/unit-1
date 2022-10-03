@@ -63,7 +63,8 @@ Justify the tools/structure of your solution
     4. All
 7. EXTRAS
     * Error messages
-        * a
+        * Create a function to check if it's an int & if it fits the ranges
+        * Create a function to check if its a string
     * //
 
 
