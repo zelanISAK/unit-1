@@ -53,11 +53,9 @@ Justify the tools/structure of your solution
 2. ~~Introduction to the Crypto (Format visually) - October 1~~
 3. ~~Show current ledger - October 1~~
 4. ~~What would you like to do? Add to ledger, Show statistics. - October 1~~
-5. LEDGER - October 3
-    1. Input data
-    2. Are you sure this is final? Would you like to make changes?
-        1. If yes: Go back to 1
-        2. If no: Add data to CSV
+5. ~~LEDGER - October 3~~
+    1. ~~Input data~~
+    2. Edit ledger - October 3
 6. STATISTICS - October 5
     1. Cash Flow
     2. Balance Trend
