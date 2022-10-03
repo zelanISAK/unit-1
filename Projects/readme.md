@@ -61,5 +61,9 @@ Justify the tools/structure of your solution
     2. Balance Trend
     3. Expense Structure
     4. All
+7. EXTRAS
+    * Error messages
+        * a
+    * //
 
 
