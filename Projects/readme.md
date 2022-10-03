@@ -62,10 +62,10 @@ Justify the tools/structure of your solution
     3. Expense Structure
     4. All
 7. EXTRAS
+    * Visual Layout
     * Error messages
         * Create a function to check if it's an int & if it fits the ranges
         * Create a function to check if its a string & if it's the correct spelling
-        * What if its the incorrect spelling? Print (Do you mean "...") OR create an error message and go back to the input line.
-    * //
+        * What if its the incorrect spelling? Print (Do you mean "...") OR create an error message and go back to the input line
 
 
