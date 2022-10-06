@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-06T04:35:37.847Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="s0vSn9SJ_kyKgR7EcU7W" version="20.4.0" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-10-06T04:36:57.711Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="u_4wXl3S9uRXCSHwMoMh" version="20.4.0" type="github" pages="10">
   <diagram id="ixPEuoIDqIsue7XByXnb" name="quiz1">
     <mxGraphModel dx="723" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -802,8 +802,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="XTEMFW6ruFaKfwdM7RpU" name="Page-10">
-    <mxGraphModel dx="1417" dy="1857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+  <diagram id="XTEMFW6ruFaKfwdM7RpU" name="quiz015">
+    <mxGraphModel dx="585" dy="1703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -831,11 +831,22 @@
         <mxCell id="dAUwJJNKQ6tyeM47-GlW-12" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="dAUwJJNKQ6tyeM47-GlW-5" target="dAUwJJNKQ6tyeM47-GlW-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="dAUwJJNKQ6tyeM47-GlW-24" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="dAUwJJNKQ6tyeM47-GlW-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="162" y="157.50000000000045" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="dAUwJJNKQ6tyeM47-GlW-5" value="door.append(False)" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
           <mxGeometry x="64" y="136" width="120" height="43" as="geometry" />
         </mxCell>
+        <mxCell id="dAUwJJNKQ6tyeM47-GlW-22" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="dAUwJJNKQ6tyeM47-GlW-9" target="dAUwJJNKQ6tyeM47-GlW-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="dAUwJJNKQ6tyeM47-GlW-9" value="for a in range(0,n)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;hachureGap=4;" vertex="1" parent="1">
           <mxGeometry x="64" y="210" width="120" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="dAUwJJNKQ6tyeM47-GlW-21" value="for b in range(a, n, a+1)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="44" y="270" width="160" height="38" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
