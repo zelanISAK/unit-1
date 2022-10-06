@@ -55,14 +55,13 @@ Justify the tools/structure of your solution
 4. ~~What would you like to do? Add to ledger, Show statistics. - October 1~~
 5. ~~LEDGER - October 3~~
     1. ~~Input data~~
-    2. Edit ledger - October 3
-6. STATISTICS - October 5
-    1. Cash Flow
-    2. Balance Trend
-    3. Expense Structure
-    4. All
+6. ~~!!STATISTICS - October 5~~
+    ~~1. Cash Flow~~
+    ~~2. Balance Trend~~
+    ~~3. Expense Structure~~
+    ~~4. All~~
 7. EXTRAS
-    * Visual Layout
+    * ~~Visual Layout~~
     * Error messages
         * Create a function to check if it's an int & if it fits the ranges
         * Create a function to check if its a string & if it's the correct spelling
