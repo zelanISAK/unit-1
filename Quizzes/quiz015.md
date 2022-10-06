@@ -10,4 +10,4 @@ Problem
 
 
 ### Proof
-<img width="260" alt="Screen Shot 2022-10-06 at 1 41 32 PM" src="https://user-images.githubusercontent.com/113817801/194215743-ed7a6375-bf84-4065-90a9-a9e8bdb88213.png">
+<img width="184" alt="Screen Shot 2022-10-06 at 1 48 10 PM" src="https://user-images.githubusercontent.com/113817801/194216603-fc6c89b2-fb4c-4f58-9990-9b7aef9d5944.png">
