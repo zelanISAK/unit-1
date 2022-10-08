@@ -60,11 +60,14 @@ Justify the tools/structure of your solution
     ~~2. Balance Trend~~
     ~~3. Expense Structure~~
     ~~4. All~~
-7. EXTRAS
+7. ~~REGISTER SYSTEM~~
+8. ~~LOGIN SYSTEM~~
+8. EXTRAS
     * ~~Visual Layout~~
     * Error messages
-        * Create a function to check if it's an int & if it fits the ranges
+        * ~~Create a function to check if it's an int & if it fits the ranges~~
         * Create a function to check if its a string & if it's the correct spelling
         * What if its the incorrect spelling? Print (Do you mean "...") OR create an error message and go back to the input line
+ 
 
 
