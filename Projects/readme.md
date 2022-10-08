@@ -41,6 +41,9 @@ Justify the tools/structure of your solution
 |---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
 | 1       | Create system diagram                                         | To have a clear idea of the hardware and software requirements for the proposed solution                        | 10min         | Sep 22                | B         |
 | 2       | Completion of success criteria                                         | To have a good definition of what needs to be achieved and what a successful project would look like                        | 10min         | Sep 22               | A         |
+| 3       | Alpha Development                                         | Create an initial draft of the code that satisfies the success criteria created.                        | 7 hours         | October 6               | A         |
+| 4       | Beta-testing                                         | Test the program on actual users and uncover any issue or bugs before releasing to the client.                        | 40 minutes         | October 7               | A         |
+| 5       | Beta Development                                        | Fix uncovered issues & bugs, and add features that are previously suggested                       | 6 hours         | October 9               | A         |
 
 
 
