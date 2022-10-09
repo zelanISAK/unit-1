@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-09T16:38:01.739Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="30xO-VmDGiiW4KOKVmbz" version="20.4.0" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2022-10-09T16:49:57.318Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="ZxYWCZPN0frFci8X1neg" version="20.4.0" type="github" pages="16">
   <diagram id="ixPEuoIDqIsue7XByXnb" name="quiz1">
     <mxGraphModel dx="583" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1372,7 +1372,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lX4MR8GOWO72O2aVYp_o" name="quiz16">
-    <mxGraphModel dx="1372" dy="1003" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1372" dy="917" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1491,6 +1491,79 @@
         </mxCell>
         <mxCell id="KCEp3FVSbS9CLQMAzxaV-27" value="return counter+&quot;\n&quot;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
           <mxGeometry x="127.5" y="595" width="128" height="27" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="v7ggfZ80ORuDA94Uoi4u" name="quiz010">
+    <mxGraphModel dx="1372" dy="1317" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lEwGL89HYUAAZ7hQMwBz-3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="lEwGL89HYUAAZ7hQMwBz-1" target="lEwGL89HYUAAZ7hQMwBz-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lEwGL89HYUAAZ7hQMwBz-1" value="start" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-57" y="-128" width="70.36" height="26.09" as="geometry" />
+        </mxCell>
+        <mxCell id="lEwGL89HYUAAZ7hQMwBz-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="lEwGL89HYUAAZ7hQMwBz-2" target="lEwGL89HYUAAZ7hQMwBz-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lEwGL89HYUAAZ7hQMwBz-2" value="def powersTen(quantity:int)-&amp;gt; str:" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-137.32" y="-70" width="231" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="lEwGL89HYUAAZ7hQMwBz-8" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="lEwGL89HYUAAZ7hQMwBz-4" target="lEwGL89HYUAAZ7hQMwBz-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lEwGL89HYUAAZ7hQMwBz-4" value="&lt;div&gt;out = &quot;&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; sufix = [&quot;unit&quot;, &quot;kilo&quot;, &quot;mega&quot;, &quot;giga&quot;, &quot;tera&quot;]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; quantity=quantity.split(&quot; &quot;)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-147.32" y="-5" width="251" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lEwGL89HYUAAZ7hQMwBz-15" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="lEwGL89HYUAAZ7hQMwBz-6" target="lEwGL89HYUAAZ7hQMwBz-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lEwGL89HYUAAZ7hQMwBz-6" value="for power in range(4, -1, -1)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-108.82" y="69" width="174" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="lEwGL89HYUAAZ7hQMwBz-21" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="lEwGL89HYUAAZ7hQMwBz-9" target="lEwGL89HYUAAZ7hQMwBz-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lEwGL89HYUAAZ7hQMwBz-9" value="for power in range(4)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-108.82" y="294" width="174" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="lEwGL89HYUAAZ7hQMwBz-16" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="lEwGL89HYUAAZ7hQMwBz-10" target="lEwGL89HYUAAZ7hQMwBz-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="99" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lEwGL89HYUAAZ7hQMwBz-18" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="lEwGL89HYUAAZ7hQMwBz-10" target="lEwGL89HYUAAZ7hQMwBz-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lEwGL89HYUAAZ7hQMwBz-10" value="&lt;div&gt;zeros = &quot;0&quot; * (3 * power)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; value = f&quot;{int(quantity[0])}{zeros}&quot;.ljust(25) + sufix[power]+quantity[1]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; out += value + &quot;\n&quot;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-155.32" y="132" width="267" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lEwGL89HYUAAZ7hQMwBz-19" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="lEwGL89HYUAAZ7hQMwBz-17" target="lEwGL89HYUAAZ7hQMwBz-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lEwGL89HYUAAZ7hQMwBz-17" value="sufix = [&quot;mili&quot;, &quot;micro&quot;, &quot;nano&quot;, &quot;pico&quot;]" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-127.82" y="234" width="212" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="lEwGL89HYUAAZ7hQMwBz-22" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="lEwGL89HYUAAZ7hQMwBz-20" target="lEwGL89HYUAAZ7hQMwBz-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="159" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lEwGL89HYUAAZ7hQMwBz-24" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="lEwGL89HYUAAZ7hQMwBz-20" target="lEwGL89HYUAAZ7hQMwBz-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lEwGL89HYUAAZ7hQMwBz-20" value="&lt;div&gt;zeros = &quot;0&quot; * (3 * power)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; value = f&quot;0.00{zeros}{quantity[0]}&quot;.ljust(25) + sufix[power]+quantity[1]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; out += value + &quot;\n&quot;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-153.98" y="352" width="264.32" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lEwGL89HYUAAZ7hQMwBz-23" value="return out" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-66.72999999999999" y="454" width="89.82" height="38" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
