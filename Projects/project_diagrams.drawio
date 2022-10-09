@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-09T06:59:40.644Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="v62lWdfGYhk_IzaYODF7" version="20.4.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-10-09T07:04:54.390Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="czXX2XGuM7Z-y7EXZ_Pk" version="20.4.0" type="github" pages="5">
   <diagram id="VzSdU9WmRAFDcLf1YNdm" name="Main Flowchart">
     <mxGraphModel dx="4493" dy="1946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -510,7 +510,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XmbtGniz6kLAVueCqp9H" name="Password Requirement">
-    <mxGraphModel dx="623" dy="950" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1246" dy="1500" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -600,6 +600,59 @@
         </mxCell>
         <mxCell id="LSQ4SY1IVezFCtZ0pe6N-31" value="End" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
           <mxGeometry x="165" y="1241" width="64" height="37" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ugRgChM5flTruKbZ-ZvW" name="Balance Trend">
+    <mxGraphModel dx="845" dy="393" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9Jl-t7wG1YQYx7usF_Su-3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="9Jl-t7wG1YQYx7usF_Su-1" target="9Jl-t7wG1YQYx7usF_Su-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Jl-t7wG1YQYx7usF_Su-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="152" y="45" width="85" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="9Jl-t7wG1YQYx7usF_Su-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="9Jl-t7wG1YQYx7usF_Su-2" target="9Jl-t7wG1YQYx7usF_Su-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Jl-t7wG1YQYx7usF_Su-2" value="def baltrend(fle)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="134.5" y="110" width="120" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="9Jl-t7wG1YQYx7usF_Su-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="9Jl-t7wG1YQYx7usF_Su-4" target="9Jl-t7wG1YQYx7usF_Su-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Jl-t7wG1YQYx7usF_Su-4" value="bal2 = []" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="158.5" y="172" width="72" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Jl-t7wG1YQYx7usF_Su-9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="9Jl-t7wG1YQYx7usF_Su-6" target="9Jl-t7wG1YQYx7usF_Su-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Jl-t7wG1YQYx7usF_Su-6" value="with open(f&quot;{fle}&quot;, &quot;r&quot;) as file:&lt;br&gt;fin_data = file.readlines()" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="114.75" y="220" width="159.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Jl-t7wG1YQYx7usF_Su-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="9Jl-t7wG1YQYx7usF_Su-8" target="9Jl-t7wG1YQYx7usF_Su-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Jl-t7wG1YQYx7usF_Su-8" value="for line in fin_data" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="134.5" y="275" width="120" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="9Jl-t7wG1YQYx7usF_Su-13" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="9Jl-t7wG1YQYx7usF_Su-10" target="9Jl-t7wG1YQYx7usF_Su-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Jl-t7wG1YQYx7usF_Su-10" value="&lt;div&gt;line = line.strip()&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; bal2.append(int(line.split(&quot;,&quot;)[-1]))&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="109" y="327" width="171" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9Jl-t7wG1YQYx7usF_Su-16" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="9Jl-t7wG1YQYx7usF_Su-12" target="9Jl-t7wG1YQYx7usF_Su-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Jl-t7wG1YQYx7usF_Su-12" value="&lt;div&gt;print(&quot;\n\33[0;37mPlease close the tab with the plot to continue with the ledger.&quot;)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; plt.plot(bal2)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; plt.show()&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-41" y="437" width="471" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Jl-t7wG1YQYx7usF_Su-15" value="End" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="160" y="527" width="69" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
