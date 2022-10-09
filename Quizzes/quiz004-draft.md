@@ -8,8 +8,12 @@ The following flow diagram contains bad coding practices, improve it, then test 
 
 
 ### Answer
+<img width="377" alt="Screen Shot 2022-10-09 at 8 13 58 PM" src="https://user-images.githubusercontent.com/113817801/194753747-4b7552b1-e786-4e05-8373-8f4420e3a2c3.png">
+
 
 ### Flowchart
+![flowcharts-quiz 4 drawio](https://user-images.githubusercontent.com/113817801/194753980-ed6c37fd-6122-4b67-8654-a905190d87cc.png)
 
 
 ### Code & Proof
+<img width="222" alt="Screen Shot 2022-10-09 at 8 14 10 PM" src="https://user-images.githubusercontent.com/113817801/194753754-ac79dfe6-ce74-4588-8e4a-a90cf98917fe.png">
