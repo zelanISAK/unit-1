@@ -45,7 +45,32 @@ The proposed product, Atom: a Cosmos Crypto E-ledger, is an effective solution t
 | c                   | 1         | accepted range: [1-2]  | *Asks for new ledger file name*   | *Asks for new ledger file name*   | ✓              |
 |                     |           |                        |                                   |                                   |                |
 #### Login
+| **Variable**      | **Input**                 | **Code**                        | **Output**                                       | **Expected Output**                              | **Satisfied? |
+|-------------------|---------------------------|---------------------------------|--------------------------------------------------|--------------------------------------------------|--------------|
+| a - str(Username) | zelaneroz                 | *Checks if username exists*     | True                                             | True                                             | ✓            |
+| a - str(Username) | canela2                   | *Checks if username exists*     | False                                            | False                                            | ✓            |
+| b - Password      | Zelan123                  | *Checks if password is correct* | True                                             | True                                             | ✓            |
+| b - Password      | Zelan123456               | *Checks if password is correct* | False                                            | False *3 more password input attempts*           | ✓            |
+| b - Password      | Zelan123456 (3rd attempt) | *Checks if password is correct* | False *Offers if user wants to register instead* | False *Offers if user wants to register instead* | ✓            |
+
 #### Main Program
+| **Variable**     | **Input** | **Code**                                         | **Output**                                               | **Expected Output**                                      | **Satisfied? |
+|------------------|-----------|--------------------------------------------------|----------------------------------------------------------|----------------------------------------------------------|--------------|
+| a (int) - Option | 1         | if a==1: register()                              | *Register function initiated*                            | *Register Function initiated*                            | ✓            |
+| a (int) - Option | 2         | if a==2: login()                                 | *Log in function initiated*                              | *Log in function initiated*                              | ✓            |
+| a (int) - Option | 3         | if a==3: *Closes program*                        | End program                                              | End program                                              | ✓            |
+| a (int) - Option | gyfhghsj  | *Validates if input is an int*                   | False                                                    | False Choose again                                       | ✓            |
+| a (int) - Option | 4         | *Checks if input is within accepted range (1-3)* | False                                                    | False *Error Message. Enter again*                       | ✓            |
+| b - str [YES/NO] | Yes       | *Would you like to do another action?*           | ledger()                                                 | ledger()                                                 | ✓            |
+| b - str [YES/NO] | No        | *Would you like to do another action?*           | *Asks: Would you like to close the ledger*               | *Asks: Would you like to close the ledger*               | ✓            |
+| b - str [YES/NO] | Yes       | *Would you like to close the ledger?*            | *Closing*                                                | *Closing*                                                | ✓            |
+| b - str [YES/NO] | No        | *Would you like to close the ledger*             | *Asks: Would you like to do another action*              | *Asks: Would you like to do another action?*             | ✓            |
+| a - int          | 1         | *Enter choice [1-3]*                             | *Shows Ledger*                                           | *Shows Ledger*                                           | ✓            |
+| a - int          | 2         | *Enter choice [1-3]*                             | *Asks for new row of data for the ledger*                | *Asks for new row of data for the ledger*                | ✓            |
+| a - int          | 3         | *Enter choice [1-3]*                             | *Show statistics options*                                | *Show statistics options*                                | ✓            |
+| a - int          | ohgfhh    | *Enter choice [1-3]*                             | print("Try again. Please enter a number.")               | print("Try again. Please enter a number.")               | ✓            |
+| a - int          | 5         | *Enter choice [1-3]*                             | Please choose a valid option.... *Ask for another input* | Please choose a valid option.... *Ask for another input* | ✓            |
+
 
 ## System Diagram
 ![project_diagrams-System Diagram drawio](https://user-images.githubusercontent.com/113817801/194740842-3a772d67-ff86-456d-8a38-1af79ebbaff7.png)
