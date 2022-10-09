@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-09T06:32:53.488Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="weMKwqPTPCHAUJWCCqEP" version="20.4.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-09T06:34:07.434Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="JpoLNFL3ZJQa2k0MS2eK" version="20.4.0" type="github" pages="3">
   <diagram id="VzSdU9WmRAFDcLf1YNdm" name="Main Flowchart">
     <mxGraphModel dx="4493" dy="1946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -453,11 +453,32 @@
         <mxCell id="AOkHxQ4sV-mEwf4kJCTz-71" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; with open(&quot;cofcsv.csv&quot;, &quot;r&quot;) as file:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; csv_data = file.readlines()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
           <mxGeometry x="385" y="2150" width="210" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="AOkHxQ4sV-mEwf4kJCTz-76" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="AOkHxQ4sV-mEwf4kJCTz-73" target="AOkHxQ4sV-mEwf4kJCTz-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="AOkHxQ4sV-mEwf4kJCTz-73" value="for line in csv_data:" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;hachureGap=4;" vertex="1" parent="1">
           <mxGeometry x="430" y="2200" width="120" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="AOkHxQ4sV-mEwf4kJCTz-78" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="AOkHxQ4sV-mEwf4kJCTz-75" target="AOkHxQ4sV-mEwf4kJCTz-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="AOkHxQ4sV-mEwf4kJCTz-75" value="&lt;div&gt;line = line.strip()&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ac_code = line.split(&quot;,&quot;)[-1]&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
-          <mxGeometry x="395" y="2240" width="190" height="40" as="geometry" />
+          <mxGeometry x="395" y="2250" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AOkHxQ4sV-mEwf4kJCTz-80" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="AOkHxQ4sV-mEwf4kJCTz-77" target="AOkHxQ4sV-mEwf4kJCTz-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AOkHxQ4sV-mEwf4kJCTz-77" value="g==ac_code" style="rhombus;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="450" y="2310" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AOkHxQ4sV-mEwf4kJCTz-82" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="AOkHxQ4sV-mEwf4kJCTz-79" target="AOkHxQ4sV-mEwf4kJCTz-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AOkHxQ4sV-mEwf4kJCTz-79" value="&lt;pre style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;with &lt;/span&gt;&lt;span style=&quot;color:#8888c6;&quot;&gt;open&lt;/span&gt;(&lt;span style=&quot;color:#6a8759;&quot;&gt;&quot;user.csv&quot;&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color:#6a8759;&quot;&gt;&quot;r&quot;&lt;/span&gt;) &lt;span style=&quot;color:#cc7832;&quot;&gt;as &lt;/span&gt;file:&lt;br&gt;    user_data = file.readlines()&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="335" y="2400" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AOkHxQ4sV-mEwf4kJCTz-81" value="for line2 in user_data:" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="430" y="2460" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
