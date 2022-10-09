@@ -80,13 +80,27 @@ JUSTIFY HOW THE CHOICE OF THIS PARTICULAR PRODUCT IS AN EFFECTIVE SOLUTION.
 # Criteria C: Development
 ## Existing Tools
 **Integrated Development Environment (IDE)**: PyCharm
+
+
 **Libraries**
-    * import warnings; warnings.filterwarnings("ignore")
-    * random
-    * pathlib import Path
-    * from datetime import datetime
-    * matplotlib.pyplot
-    * string
+* import warnings; warnings.filterwarnings("ignore")
+* random
+* pathlib
+* datetime
+* matplotlib.pyplot
+* string
+
+
+**Structures**
+* Functions
+* Loops
+    * For
+    * While
+* Validation: try, except ValueError
+* with open ("\.csv", "a") as file
+* write.(\data)
+* Data Types: String, Boolean, Integer
+
 
 ## Sources
 
