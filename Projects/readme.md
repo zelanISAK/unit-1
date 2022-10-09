@@ -34,25 +34,6 @@ JUSTIFY HOW THE CHOICE OF THIS PARTICULAR PRODUCT IS AN EFFECTIVE SOLUTION.
 # Criteria B: Design
 
 ## Test Plan
-1. ~~Welcome Message + Login System - September 27 to 28~~
-2. ~~Introduction to the Crypto (Format visually) - October 1~~
-3. ~~Show current ledger - October 1~~
-4. ~~What would you like to do? Add to ledger, Show statistics. - October 1~~
-5. ~~LEDGER - October 3~~
-    1. ~~Input data~~
-6. ~~!!STATISTICS - October 5~~
-    ~~1. Cash Flow~~
-    ~~2. Balance Trend~~
-    ~~3. Expense Structure~~
-    ~~4. All~~
-7. ~~REGISTER SYSTEM~~
-8. ~~LOGIN SYSTEM~~
-8. EXTRAS
-    * ~~Visual Layout~~
-    * Error messages
-        * ~~Create a function to check if it's an int & if it fits the ranges~~
-        * Create a function to check if its a string & if it's the correct spelling
-        * What if its the incorrect spelling? Print (Do you mean "...") OR create an error message and go back to the input line
  
 
 ## System Diagram
@@ -60,7 +41,16 @@ JUSTIFY HOW THE CHOICE OF THIS PARTICULAR PRODUCT IS AN EFFECTIVE SOLUTION.
 
 
 ## Flow Diagrams
+#### Registration Function Flowchart
+
 ![project_diagrams-Log in Flowchart drawio](https://user-images.githubusercontent.com/113817801/194741830-c2aa6430-7bc3-491f-abb9-1f54f4d03d70.png)
+
+#### Password Requirement Flowchart
+![project_diagrams-Password Requirement drawio](https://user-images.githubusercontent.com/113817801/194742633-7faf7f34-802e-4049-b22a-ece8b5801ed0.png)
+
+#### Balance Trend Flowchart
+![project_diagrams-Balance Trend drawio](https://user-images.githubusercontent.com/113817801/194742862-6da6bfcd-9f01-495a-9ab7-729f251cc8ab.png)
+
 
 
 ## Record of Tasks
@@ -71,7 +61,6 @@ JUSTIFY HOW THE CHOICE OF THIS PARTICULAR PRODUCT IS AN EFFECTIVE SOLUTION.
 | 3       | Alpha Development                                         | Create an initial draft of the code that satisfies the success criteria created.                        | 7 hours         | October 6               | C         |
 | 4       | Beta-testing                                         | Test the program on actual users and uncover any issue or bugs before releasing to the client.                        | 40 minutes         | October 7               | A         |
 | 5       | Beta Development                                        | Fix uncovered issues & bugs, and add features that are previously suggested                       | 6 hours         | October 9               | C         |
-
 
 
 <br></br>
@@ -89,6 +78,7 @@ JUSTIFY HOW THE CHOICE OF THIS PARTICULAR PRODUCT IS AN EFFECTIVE SOLUTION.
 * datetime
 * matplotlib.pyplot
 * string
+* time
 
 
 **Structures**
@@ -100,6 +90,7 @@ JUSTIFY HOW THE CHOICE OF THIS PARTICULAR PRODUCT IS AN EFFECTIVE SOLUTION.
 * with open ("\.csv", "a") as file
 * write.(\data)
 * Data Types: String, Boolean, Integer
+* Animation: sleep (typewriter effect)
 
 
 ## Sources
