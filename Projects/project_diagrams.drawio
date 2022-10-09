@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-09T06:21:42.819Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="37We_yXlasahfumseCn0" version="20.4.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-09T06:24:57.845Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="JPhT1jm0exMoI8ie4j_6" version="20.4.0" type="github" pages="3">
   <diagram id="VzSdU9WmRAFDcLf1YNdm" name="Main Flowchart">
     <mxGraphModel dx="4493" dy="1946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -245,7 +245,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Htv_ndZo4WiR1e8I5mNB" name="Log in Flowchart">
-    <mxGraphModel dx="779" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="415" dy="401" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -323,14 +323,46 @@
         <mxCell id="AOkHxQ4sV-mEwf4kJCTz-19" value="password2 = str(input(&quot;Wrong password. Please re-enter: &quot;))" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;hachureGap=4;" vertex="1" parent="1">
           <mxGeometry x="315" y="880" width="350" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="AOkHxQ4sV-mEwf4kJCTz-28" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="AOkHxQ4sV-mEwf4kJCTz-21" target="AOkHxQ4sV-mEwf4kJCTz-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="930" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="AOkHxQ4sV-mEwf4kJCTz-21" value="strt -=1" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
           <mxGeometry x="455" y="930" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AOkHxQ4sV-mEwf4kJCTz-24" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;hachureGap=4;" vertex="1" parent="1">
           <mxGeometry x="500" y="670" width="40" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="AOkHxQ4sV-mEwf4kJCTz-31" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="AOkHxQ4sV-mEwf4kJCTz-25" target="AOkHxQ4sV-mEwf4kJCTz-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="920" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AOkHxQ4sV-mEwf4kJCTz-35" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="AOkHxQ4sV-mEwf4kJCTz-25" target="AOkHxQ4sV-mEwf4kJCTz-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="AOkHxQ4sV-mEwf4kJCTz-25" value="password = str(input(&quot;Please enter a valid password. Try again: &quot;))" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;hachureGap=4;" vertex="1" parent="1">
           <mxGeometry x="282.5" y="990" width="415" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AOkHxQ4sV-mEwf4kJCTz-39" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="AOkHxQ4sV-mEwf4kJCTz-34" target="AOkHxQ4sV-mEwf4kJCTz-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AOkHxQ4sV-mEwf4kJCTz-34" value="msg = f&quot;\nAccount creation successful. Welcome, {fname}!&quot;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="315" y="1050" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AOkHxQ4sV-mEwf4kJCTz-41" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="AOkHxQ4sV-mEwf4kJCTz-38" target="AOkHxQ4sV-mEwf4kJCTz-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AOkHxQ4sV-mEwf4kJCTz-38" value="c = int(input&lt;span style=&quot;background-color: initial;&quot;&gt;(&quot;&quot;&quot;\n\nWhat would you like to do?&lt;/span&gt;&lt;div&gt;1. Create new ledger&lt;/div&gt;&lt;div&gt;2. Access existing ledger&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Enter choice: &quot;&quot;&quot;))&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="335" y="1110" width="310" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="AOkHxQ4sV-mEwf4kJCTz-40" value="c==1" style="rhombus;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="465" y="1220" width="50" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
