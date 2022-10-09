@@ -55,11 +55,12 @@ JUSTIFY HOW THE CHOICE OF THIS PARTICULAR PRODUCT IS AN EFFECTIVE SOLUTION.
         * What if its the incorrect spelling? Print (Do you mean "...") OR create an error message and go back to the input line
  
 
-## System Diagram - To be Updated
-![Untitled Diagram drawio](https://user-images.githubusercontent.com/113817801/191886270-f3b24547-04b8-493f-ade6-7d8e70768766.png)
+## System Diagram
+![project_diagrams-System Diagram drawio](https://user-images.githubusercontent.com/113817801/194740842-3a772d67-ff86-456d-8a38-1af79ebbaff7.png)
 
 
 ## Flow Diagrams
+![project_diagrams-Log in Flowchart drawio](https://user-images.githubusercontent.com/113817801/194741830-c2aa6430-7bc3-491f-abb9-1f54f4d03d70.png)
 
 
 ## Record of Tasks
@@ -67,16 +68,16 @@ JUSTIFY HOW THE CHOICE OF THIS PARTICULAR PRODUCT IS AN EFFECTIVE SOLUTION.
 |---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
 | 1       | Create system diagram                                         | To have a clear idea of the hardware and software requirements for the proposed solution                        | 10min         | Sep 22                | B         |
 | 2       | Completion of success criteria                                         | To have a good definition of what needs to be achieved and what a successful project would look like                        | 10min         | Sep 22               | A         |
-| 3       | Alpha Development                                         | Create an initial draft of the code that satisfies the success criteria created.                        | 7 hours         | October 6               | A         |
+| 3       | Alpha Development                                         | Create an initial draft of the code that satisfies the success criteria created.                        | 7 hours         | October 6               | C         |
 | 4       | Beta-testing                                         | Test the program on actual users and uncover any issue or bugs before releasing to the client.                        | 40 minutes         | October 7               | A         |
-| 5       | Beta Development                                        | Fix uncovered issues & bugs, and add features that are previously suggested                       | 6 hours         | October 9               | A         |
+| 5       | Beta Development                                        | Fix uncovered issues & bugs, and add features that are previously suggested                       | 6 hours         | October 9               | C         |
 
 
 
 <br></br>
 
 
-# Criteria 3: Development
+# Criteria C: Development
 ## Existing Tools
 
 ## Sources
