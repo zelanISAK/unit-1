@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-09T06:27:19.061Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="-Dftx4MhiiFU55gpJZPm" version="20.4.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-09T06:29:52.049Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Lj1Y4R4bLV1af642J6S7" version="20.4.0" type="github" pages="3">
   <diagram id="VzSdU9WmRAFDcLf1YNdm" name="Main Flowchart">
     <mxGraphModel dx="4493" dy="1946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -385,8 +385,38 @@
         <mxCell id="AOkHxQ4sV-mEwf4kJCTz-47" value="print(msg)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;hachureGap=4;" vertex="1" parent="1">
           <mxGeometry x="437.5" y="1430" width="105" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="AOkHxQ4sV-mEwf4kJCTz-54" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="AOkHxQ4sV-mEwf4kJCTz-51" target="AOkHxQ4sV-mEwf4kJCTz-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="AOkHxQ4sV-mEwf4kJCTz-51" value="&lt;div&gt;with open(&quot;user.csv&quot;, &quot;a&quot;) as file:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;writer = csv.writer(file)&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; writer.writerow(data)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; i = 0&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
           <mxGeometry x="395" y="1470" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AOkHxQ4sV-mEwf4kJCTz-56" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="AOkHxQ4sV-mEwf4kJCTz-53" target="AOkHxQ4sV-mEwf4kJCTz-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AOkHxQ4sV-mEwf4kJCTz-53" value="while i==0" style="rhombus;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1570" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AOkHxQ4sV-mEwf4kJCTz-58" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="AOkHxQ4sV-mEwf4kJCTz-55" target="AOkHxQ4sV-mEwf4kJCTz-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AOkHxQ4sV-mEwf4kJCTz-55" value="password5 = &#39;&#39;.join(random.choice(string.ascii_letters + string.digits) for i in range(5))" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1630" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AOkHxQ4sV-mEwf4kJCTz-60" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="AOkHxQ4sV-mEwf4kJCTz-57" target="AOkHxQ4sV-mEwf4kJCTz-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AOkHxQ4sV-mEwf4kJCTz-57" value="print(&quot;Your Ledger&#39;s access code is: \33[0;31m&quot;, password5, &quot;.\33[40m\33[0;36mPlease use and remember\33[0;36m this access code for other accounts to access your ledger\33[0m\n\n\n&quot;)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="275" y="1720" width="430" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AOkHxQ4sV-mEwf4kJCTz-62" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="AOkHxQ4sV-mEwf4kJCTz-59" target="AOkHxQ4sV-mEwf4kJCTz-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AOkHxQ4sV-mEwf4kJCTz-59" value="i+=1" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="455" y="1820" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AOkHxQ4sV-mEwf4kJCTz-61" value="main_ledger(file)" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="437.5" y="1870" width="105" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
