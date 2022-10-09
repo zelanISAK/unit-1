@@ -16,25 +16,36 @@ Apart for this requirements, Ms Sato is open to explore a cryptocurrency selecte
 Design statement:
 I will to design and make a <ins>digital ledger</ins> for a client who is <ins>Ms. Sato</ins>, a local trader. The <ins>project</project> will be about <ins>designing a digital ledger</a> and is constructed using the software <ins>Python 3.9.13</ins>. It will take <ins>2 weeks</ins> to make and will be evaluated according to the criteria below.
 
-Justify the tools/structure of your solution
-
-## Rationale for Proposed Solution
-JUSTIFY HOW THE CHOICE OF THIS PARTICULAR PRODUCT IS AN EFFECTIVE SOLUTION.
 
 ## Success Criteria
 1. The electronic ledger is a text-based software (Runs in the Terminal).
 2. The electronic ledger display the basic description of the crypotocurrency selected - Cosmos.
 3. The electronic ledger allows to enter, withdraw and record transaction (including the recipient, sender, timestamp, and wallet ID of the involved stakeholders).
 4. The electronic ledger categorizes transactions into either buying, selling, or transfer of Cosmos coins.
-6. The electronic ledger shows important statistics such as Cash Flow, Balance Trend, and Expenses Structure.
-7. The electronic ledger is secured; it requires a password for access.
+5. The electronic ledger shows important statistics such as Cash Flow, Balance Trend, and Income & Expenses Structure.
+6. The electronic ledger is secured; it requires a password for access.
+7. The electronic ledger caters to the client, Ms. Sato, and multiple users at the same time; it allows multiple users to have their own ledger or access the same ledger as Ms. Sato.
 
-
+## Rationale for Proposed Solution
+The proposed product, Atom: a Cosmos Crypto E-ledger, is an effective solution to the client, Ms. Sato's problem and status quo. The program effectively meets Ms. Sato's problem as the ledger easily ouputs statistics like Cash Flow, Balance Trend, Income Structure, and Expenses Structure. It also easily shows past transactions, which include information like Timestamp, Amount, Balance, and Categories: Buy, Sell, and Trade. The program is able to create multiple ledgers, in case Ms. Sato wants to create different ledgers for multiple functions or in case she wants a fresh start. Lastly, the program is secure since each ledger is limited to a user, or a user that knows the specific ledger's access code. The program's account registration's password requirements add to the program's sense of security as it lessens the tendency for external users to easily guess passwords through word combinations or "dictionary attacks".
 
 # Criteria B: Design
 
 ## Test Plan
- 
+#### Registration
+| **Variable**        | **Input** | **Code**               | **Output**                        | **Expected Output**               | **Satisfied?** |
+|---------------------|-----------|------------------------|-----------------------------------|-----------------------------------|----------------|
+| fname - First name  | Zelan     | None                   | None                              | None                              | ✓              |
+| lname - Last Name   | Espanto   | None                   | None                              | None                              | ✓              |
+| uname - Username    | zelaneroz | None                   | None                              | None                              | ✓              |
+| password - Password | zelan123  | password_req(password) | False                             | False                             | ✓              |
+| password - Password | Zelan123  | password_req(password) | True                              | True                              | ✓              |
+| c                   | 3         | accepted range: [1-2]  | False; Error Message; Input again | False; Error Message; Input again | ✓              |
+| c                   | 2         | accepted range: [1-2]  | *Asks for ledger access code*     | *Asks for ledger access code*     | ✓              |
+| c                   | 1         | accepted range: [1-2]  | *Asks for new ledger file name*   | *Asks for new ledger file name*   | ✓              |
+|                     |           |                        |                                   |                                   |                |
+#### Login
+#### Main Program
 
 ## System Diagram
 ![project_diagrams-System Diagram drawio](https://user-images.githubusercontent.com/113817801/194740842-3a772d67-ff86-456d-8a38-1af79ebbaff7.png)
@@ -94,4 +105,4 @@ JUSTIFY HOW THE CHOICE OF THIS PARTICULAR PRODUCT IS AN EFFECTIVE SOLUTION.
 
 
 ## Sources
-
+* https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html 
