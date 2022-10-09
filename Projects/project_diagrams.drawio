@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-09T06:30:57.713Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="2b2BlP9_yHB8ed1ie-FM" version="20.4.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-09T06:32:53.488Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="weMKwqPTPCHAUJWCCqEP" version="20.4.0" type="github" pages="3">
   <diagram id="VzSdU9WmRAFDcLf1YNdm" name="Main Flowchart">
     <mxGraphModel dx="4493" dy="1946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -245,7 +245,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Htv_ndZo4WiR1e8I5mNB" name="Log in Flowchart">
-    <mxGraphModel dx="402" dy="388" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="378" dy="365" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -429,8 +429,35 @@
         <mxCell id="AOkHxQ4sV-mEwf4kJCTz-61" value="main_ledger(file)" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
           <mxGeometry x="437.5" y="1870" width="105" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="AOkHxQ4sV-mEwf4kJCTz-67" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="AOkHxQ4sV-mEwf4kJCTz-64" target="AOkHxQ4sV-mEwf4kJCTz-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="AOkHxQ4sV-mEwf4kJCTz-64" value="&lt;div&gt;data = [fle, password5]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; with open(&quot;cofcsv.csv&quot;, &quot;a&quot;) as file:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; writer = csv.writer(file)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; writer.writerow(data)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
           <mxGeometry x="375" y="1920" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AOkHxQ4sV-mEwf4kJCTz-70" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="AOkHxQ4sV-mEwf4kJCTz-66" target="AOkHxQ4sV-mEwf4kJCTz-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AOkHxQ4sV-mEwf4kJCTz-66" value="c==2" style="rhombus;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="450" y="2030" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AOkHxQ4sV-mEwf4kJCTz-72" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="AOkHxQ4sV-mEwf4kJCTz-69" target="AOkHxQ4sV-mEwf4kJCTz-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AOkHxQ4sV-mEwf4kJCTz-69" value="g = str(input(&quot;Enter access code: &quot;))" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="380" y="2100" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AOkHxQ4sV-mEwf4kJCTz-74" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="AOkHxQ4sV-mEwf4kJCTz-71" target="AOkHxQ4sV-mEwf4kJCTz-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AOkHxQ4sV-mEwf4kJCTz-71" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; with open(&quot;cofcsv.csv&quot;, &quot;r&quot;) as file:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; csv_data = file.readlines()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="385" y="2150" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AOkHxQ4sV-mEwf4kJCTz-73" value="for line in csv_data:" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="430" y="2200" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AOkHxQ4sV-mEwf4kJCTz-75" value="&lt;div&gt;line = line.strip()&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ac_code = line.split(&quot;,&quot;)[-1]&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="395" y="2240" width="190" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
