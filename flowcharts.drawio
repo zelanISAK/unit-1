@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-09T16:53:48.489Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="DpQ8OwNcDlLjPMtD04QG" version="20.4.0" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2022-10-10T00:29:02.716Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="7cGzkQAduvdbJZyPMrMi" version="20.4.0" type="github" pages="17">
   <diagram id="ixPEuoIDqIsue7XByXnb" name="quiz1">
-    <mxGraphModel dx="583" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1055" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1564,6 +1564,118 @@
         </mxCell>
         <mxCell id="lEwGL89HYUAAZ7hQMwBz-23" value="return out" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
           <mxGeometry x="-66.72999999999999" y="454" width="89.82" height="38" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="SXDLpEsE1It8HcPCrpox" name="task2">
+    <mxGraphModel dx="1905" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TPEd0sCXjm4WYtSa4gCv-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TPEd0sCXjm4WYtSa4gCv-1" target="TPEd0sCXjm4WYtSa4gCv-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TPEd0sCXjm4WYtSa4gCv-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TPEd0sCXjm4WYtSa4gCv-2" value="&lt;div&gt;print(f&quot;{colors[3]}{welcome_msg}{end_code}&quot;)&lt;/div&gt;&lt;div&gt;print(&quot;Options&quot;.center(50))&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;print(menu)&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="220" width="290" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TPEd0sCXjm4WYtSa4gCv-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TPEd0sCXjm4WYtSa4gCv-4" target="TPEd0sCXjm4WYtSa4gCv-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TPEd0sCXjm4WYtSa4gCv-4" value="&lt;div&gt;welcome_msg = &quot; Welcome to the EV Calculator! &quot;.center(50, &quot;-&quot;)&lt;/div&gt;&lt;div&gt;prompt_msg = &quot;Please enter an option [1-4]: &quot;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;menu = &quot;&quot;&quot;1. Average time per kWh&lt;/div&gt;&lt;div&gt;2. Total kWh&lt;/div&gt;&lt;div&gt;3. Total charge time&lt;/div&gt;&lt;div&gt;4.Show all data&lt;/div&gt;&lt;div&gt;&quot;&quot;&quot;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="80" width="360" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TPEd0sCXjm4WYtSa4gCv-7" value="def calculator():" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="310" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TPEd0sCXjm4WYtSa4gCv-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TPEd0sCXjm4WYtSa4gCv-9" target="TPEd0sCXjm4WYtSa4gCv-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TPEd0sCXjm4WYtSa4gCv-9" value="option = validate_int_input(prompt_msg)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="360" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TPEd0sCXjm4WYtSa4gCv-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TPEd0sCXjm4WYtSa4gCv-10" target="TPEd0sCXjm4WYtSa4gCv-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TPEd0sCXjm4WYtSa4gCv-10" value="while option&amp;gt;4&amp;nbsp; or option&amp;lt;1" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="420" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TPEd0sCXjm4WYtSa4gCv-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TPEd0sCXjm4WYtSa4gCv-11" target="TPEd0sCXjm4WYtSa4gCv-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TPEd0sCXjm4WYtSa4gCv-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TPEd0sCXjm4WYtSa4gCv-11" target="TPEd0sCXjm4WYtSa4gCv-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TPEd0sCXjm4WYtSa4gCv-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="TPEd0sCXjm4WYtSa4gCv-11" target="TPEd0sCXjm4WYtSa4gCv-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TPEd0sCXjm4WYtSa4gCv-11" value="option = validate_int_input(f&quot;{colors[1]}Invalid option. {prompt_msg}{end_code}&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="520" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TPEd0sCXjm4WYtSa4gCv-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TPEd0sCXjm4WYtSa4gCv-16" target="TPEd0sCXjm4WYtSa4gCv-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TPEd0sCXjm4WYtSa4gCv-16" value="option==1" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="620" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TPEd0sCXjm4WYtSa4gCv-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TPEd0sCXjm4WYtSa4gCv-17" target="TPEd0sCXjm4WYtSa4gCv-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TPEd0sCXjm4WYtSa4gCv-17" value="&lt;div&gt;total_time = 0&lt;/div&gt;&lt;div&gt;&amp;nbsp;total_kwh = 0&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;i = 0&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="57.5" y="710" width="85" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TPEd0sCXjm4WYtSa4gCv-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TPEd0sCXjm4WYtSa4gCv-20" target="TPEd0sCXjm4WYtSa4gCv-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TPEd0sCXjm4WYtSa4gCv-20" value="for line in ev_logs" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="790" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TPEd0sCXjm4WYtSa4gCv-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TPEd0sCXjm4WYtSa4gCv-22" target="TPEd0sCXjm4WYtSa4gCv-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TPEd0sCXjm4WYtSa4gCv-22" value="i &amp;gt; 0:" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="840" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TPEd0sCXjm4WYtSa4gCv-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TPEd0sCXjm4WYtSa4gCv-23" target="TPEd0sCXjm4WYtSa4gCv-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TPEd0sCXjm4WYtSa4gCv-23" value="&lt;div&gt;data = line.split(&quot;,&quot;)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; # print(data)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; temp_time = data[2]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; temp_time = temp_time.split(&quot;:&quot;)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; temp_time = int(temp_time[0]) * 60 + int(temp_time[1])&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; total_time += temp_time&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; kWh = data[1]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; total_kwh = float(kWh[0:5])&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="910" width="160" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="TPEd0sCXjm4WYtSa4gCv-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TPEd0sCXjm4WYtSa4gCv-27" target="TPEd0sCXjm4WYtSa4gCv-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="1175" />
+              <mxPoint x="220" y="805" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TPEd0sCXjm4WYtSa4gCv-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TPEd0sCXjm4WYtSa4gCv-27" target="TPEd0sCXjm4WYtSa4gCv-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TPEd0sCXjm4WYtSa4gCv-27" value="i+=1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1160" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TPEd0sCXjm4WYtSa4gCv-30" value="print(f&quot;{bold_green}Average time per kWh: {end_code}&lt;br&gt;{colors[3]}{int(total_time / total_kwh)} minutes{end_code}&quot;)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="1210" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TPEd0sCXjm4WYtSa4gCv-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TPEd0sCXjm4WYtSa4gCv-32" target="TPEd0sCXjm4WYtSa4gCv-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TPEd0sCXjm4WYtSa4gCv-32" value="option==2" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="620" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TPEd0sCXjm4WYtSa4gCv-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TPEd0sCXjm4WYtSa4gCv-34" target="TPEd0sCXjm4WYtSa4gCv-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TPEd0sCXjm4WYtSa4gCv-34" value="&lt;div&gt;index = 0&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;total_energy = 0&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TPEd0sCXjm4WYtSa4gCv-36" value="for line in ev_logs" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="770" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
